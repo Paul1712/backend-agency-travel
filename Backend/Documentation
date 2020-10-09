@@ -1,0 +1,35 @@
+>> Documentación y requerimientos de uso APIRest <<
+
+- Nombre API: Agency Travel
+
+- Descripción: API RestFULL para agencia de viajes.
+
+- Utilidad(Basados en requerimientos de prueba de ingreso):
+    Agregar Clientes
+    Agregar Vuelos
+    Agregar Vuelos disponibles a clientes
+    
+- Recursos:
+    > Base de datos: MongoDB
+    > Backend: Node.js y Dependencias
+    > Libreria Express
+    > Servicios: Postman
+
+- Se necesita tener instalado:
+    > MongoDB (https://www.mongodb.com/es)
+    > La version más reciente de Node.js
+    > Robo 3T o RoboMongo, que es un gestionador visual de la BD. (https://robomongo.org/) *OPCIONAL*
+
+
+- Pasos para usar el API, ya teniendo instalados los recursos anteriores:
+
+1. Ubicarnos en carpeta raiz de MongoDB: C:\Program Files\MongoDB\Server\4.0\bin
+2. Correr el demonio de MongoDB, archivo mongod.exe
+>> En caso de tener el RoboMongo realizar la conexion con la base de datos <<
+3. Desde nuestro cmd o consola, ubicarse dentro de la carpeta Backend del proyecto (agency-travel).
+4. Ejecutar el comando: npm start (Para inciar el servidor del API).
+5. Importar desde Postman el archivo que se adjunta con nombre: API REST.postman_collection.json,
+   este archivo contiene las rutas del API donde se realizan las peticiones.
+
+
+
